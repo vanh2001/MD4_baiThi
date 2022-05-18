@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/city")
+@CrossOrigin("*")
 public class CityController {
     @Autowired
     private ICityService cityService;
